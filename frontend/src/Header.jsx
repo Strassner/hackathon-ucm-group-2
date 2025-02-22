@@ -8,7 +8,7 @@ function Header(){
 
     return (
         <div className="header" >
-            <h1>DormSwipe</h1>
+            <h1>dormswipe</h1>
             <img src={hamburger} alt="hamburger" className="hamburger-image" onClick={handleClick}/>
         </div>
     );
