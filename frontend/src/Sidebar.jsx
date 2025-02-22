@@ -13,7 +13,7 @@ function Sidebar() {
             <button onClick={() => {handleClick('home')}}>Home</button>
             <button onClick={() => {handleClick('')}}>Login</button>
             <button onClick={() => {handleClick('')}}>Swipe</button>
-            <button onClick={() => {handleClick('')}}>Chat</button>
+            <button onClick={() => {handleClick('chat')}}>Chat</button>
         </div>
     );
 }
