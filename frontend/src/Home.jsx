@@ -2,16 +2,15 @@ import Sidebar from "./Sidebar";
 
 
 function Home() {
-
-
-
     return (
         <div className="container">
-        <div>
+
+          <div>
             <Sidebar />
             <h1>Welcome to dormswipe</h1>
 
-        </div>
+         </div>
+
         </div>
     )
 }

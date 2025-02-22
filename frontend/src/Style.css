@@ -1,5 +1,69 @@
+
 /* NEW: Super Small Container for Hamburger Button */
 .hamburger-container {
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #bdbdbd;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-box {
+    background-color: rgb(218, 218, 218);
+    border-radius: 1rem;
+    width: 75%;
+    margin: 1rem;
+    padding: 1rem;
+    justify-self: center;
+}
+
+.response-button {
+    background-color: rgba(255, 0, 0, 0.993);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 20%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.response-input {
+    width: 80%;
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+
+    height: 3vh;
+}
+
+.chat-box p{
+    margin: 1rem;
+    padding: .5rem;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+}
+/* .chat-container h3 {
+    text-align: left;
+    margin-left: 1rem;
+} */
+
+.chat-container {
+    display: "flex";
+    flex-direction: "column";
+    width: "100%";
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
     position: fixed;
     top: 10px;
     right: 10px; /* Moves to the right */
@@ -8,6 +72,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     z-index: 1001; /* Ensures it stays above content */
 }
 
@@ -25,6 +90,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 /* Sidebar */
 .sidebar {
@@ -88,6 +154,7 @@
         height: 40px;
     }
 
+
     .sidebar {
         width: 75%;
         left: -100%;
@@ -97,3 +164,4 @@
         left: 0;
     }
 }
+

@@ -11,17 +11,19 @@ function Sidebar() {
                 ☰
             </button>
 
+
             <div className={`sidebar ${isOpen ? "open" : ""}`}>
                 <button className="close-btn" onClick={() => setIsOpen(false)}>✖</button>
                 <h2>dormswipe</h2>
                 <Link to="/home" className="sidebar-button" onClick={() => setIsOpen(false)}>Home</Link>
                 <Link to="/profile" className="sidebar-button" onClick={() => setIsOpen(false)}>Profile</Link>
-                <Link to="/" className="sidebar-button" onClick={() => setIsOpen(false)}>Chat</Link>
+                <Link to="/chat" className="sidebar-button" onClick={() => setIsOpen(false)}>Chat</Link>
                 <Link to="/" className="sidebar-button" onClick={() => setIsOpen(false)}>Swipe</Link>
             </div>
 
             {isOpen && <div className="overlay" onClick={() => setIsOpen(false)}></div>}
         </>
+
     );
 }
 
