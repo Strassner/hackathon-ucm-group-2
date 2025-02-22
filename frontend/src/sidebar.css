@@ -87,7 +87,7 @@
 
 /* Add padding to buttons */
 .edit-profile-btn {
-    background: #ff0000; /* Red button */
+    background: #ff4040; /* Red button */
     color: white;
     border: none;
     padding: 10px 15px; /* Adds padding inside the button */
@@ -107,7 +107,7 @@
 .sidebar-button {
     width: 90%; /* Slightly smaller width */
     padding: 10px; /* Smaller padding */
-    background: red; /* Red Buttons */
+    background: #ff4040; /* Red Buttons */
     color: white;
     text-decoration: none;
     display: block;
