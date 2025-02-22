@@ -5,6 +5,7 @@ import './Style.css'
 import Login from './Login/Login'
 import Test from './Test'
 import Home from './Home'
+import Profile from './profile'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,6 +14,8 @@ function App() {
       <Route path="/" element={<Login />} />
       <Route path="/test" element={<Test />} />
       <Route path="/home" element={<Home />} />
+      <Route path="/profile" element={<Profile />} />
+
     </Routes>
   )
 }
