@@ -4,9 +4,8 @@ import './App.css'
 import './Style.css'
 import Login from './Login/Login'
 import Home from './Home'
-import Chat from './Chat'
+import Chat from './Chat/Chat'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Routes>
