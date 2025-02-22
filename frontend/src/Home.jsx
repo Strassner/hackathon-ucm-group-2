@@ -8,7 +8,7 @@ function Home() {
     return (
         <div className="container">
         <Header />
-        <div style={{display: 'flex'}}>
+        <div>
             <Sidebar />
             <h1>Home</h1>
             
