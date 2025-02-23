@@ -6,6 +6,7 @@ import Login from './Login/Login'
 import Home from './Home'
 import Profile from './profile'
 import Chat from './Chat/Chat'
+import Swipe from './Swipe/Swipe'
 function App() {
 
   return (
@@ -14,7 +15,7 @@ function App() {
       <Route path="/chat" element={<Chat />} />
       <Route path="/home" element={<Home />} />
       <Route path="/profile" element={<Profile />} />
-
+      <Route path="/swipe" element={<Swipe />} />
     </Routes>
   )
 }
