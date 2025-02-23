@@ -1,5 +1,5 @@
 import Sidebar from "./Sidebar";
-import johnSmithImage from "./johnSmithClean.webp";
+import johnSmithImage from "./assets/johnSmithClean.webp";
 
 function Profile() {
     return (
