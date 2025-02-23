@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 
-function Sidebar() {
-    const [isOpen, setIsOpen] = useState(true); // Sidebar opens by default
+function Sidebar({open}) {
+    const [isOpen, setIsOpen] = useState(open); // Sidebar opens by default
 
 
     return (
@@ -26,7 +26,7 @@ function Sidebar() {
                     <Link to="/home" className="sidebar-button" onClick={() => setIsOpen(false)}>Home</Link>
                     <Link to="/profile" className="sidebar-button" onClick={() => setIsOpen(false)}>Profile</Link>
                     <Link to="/chat" className="sidebar-button" onClick={() => setIsOpen(false)}>Chat</Link>
-                    <Link to="/" className="sidebar-button" onClick={() => setIsOpen(false)}>Swipe</Link>
+                    <Link to="/swipe" className="sidebar-button" onClick={() => setIsOpen(false)}>Swipe</Link>
                 </div>
 
             </div>
