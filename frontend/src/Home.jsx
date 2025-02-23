@@ -6,7 +6,7 @@ function Home() {
         <div className="container">
 
           <div>
-            <Sidebar />
+            <Sidebar open="true"/>
             <h1>Welcome to dormswipe</h1>
 
          </div>

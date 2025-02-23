@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
-function Sidebar() {
-    const [isOpen, setIsOpen] = useState(false);
+function Sidebar({ open }) {
+    const [isOpen, setIsOpen] = useState(open);
 
     return (
         <>
@@ -18,7 +18,7 @@ function Sidebar() {
                 <Link to="/home" className="sidebar-button" onClick={() => setIsOpen(false)}>Home</Link>
                 <Link to="/profile" className="sidebar-button" onClick={() => setIsOpen(false)}>Profile</Link>
                 <Link to="/chat" className="sidebar-button" onClick={() => setIsOpen(false)}>Chat</Link>
-                <Link to="/" className="sidebar-button" onClick={() => setIsOpen(false)}>Swipe</Link>
+                <Link to="/swipe" className="sidebar-button" onClick={() => setIsOpen(false)}>Swipe</Link>
             </div>
 
             {isOpen && <div className="overlay" onClick={() => setIsOpen(false)}></div>}
